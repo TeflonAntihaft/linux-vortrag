@@ -90,20 +90,23 @@
 <section>
 <section id="linux-vortrag" class="title-slide slide level1">
 <h1>Linux-Vortrag</h1>
-<p>Winterophase 19/20</p>
-<p>Heiko Carrasco</p>
+<p>Winterophase 20/21</p>
+<p>Tobias Kratz, David Eckhardt</p>
 </section>
-<section id="vortragsfolien" class="slide level2">
-<h2>Vortragsfolien</h2>
-<p><img data-src="img/qrcode.png" /></p>
-<p><a href="https://tinyurl.com/linux-vortrag">https://tinyurl.com/linux-vortrag</a></p>
-</section>
-<section id="about-me" class="slide level2">
-<h2>About me</h2>
+<section id="about-us1" class="slide level2">
+<h2>About us</h2>
 <ul>
-<li class="fragment">Heiko Carrasco</li>
-<li class="fragment">Linux Nutzer seit ~2009</li>
-<li class="fragment">Komplett umgestiegen ~2012</li>
+<li class="fragment">David Eckhardt</li>
+<li class="fragment">Linux Nutzer seit ~2012</li>
+<li class="fragment">Zentraler Punkt meiner Bachelor-Arbeit dieses Semester war Linux</li>
+</ul>
+</section>
+<section id="about-us2" class="slide level2">
+<h2>About us</h2>
+<ul>
+<li class="fragment">Tobias Kratz</li>
+<li class="fragment">foo</li>
+<li class="fragment">bar</li>
 </ul>
 </section>
 <section id="was-ist-linux" class="slide level2">
@@ -123,11 +126,16 @@
 </ul>
 </section>
 <section id="warum-ein-vortrag-und-kein-workshop" class="slide level2">
-<h2>Warum ein Vortrag und kein Workshop?</h2>
+<h2>Warum 'Workshop' etwas irreführend ist</h2>
+<ul>
+<li class="fragment">Thema zu groß um echt praktisch zu arbeiten</li>
+<li class="fragment">Deshalb besser: Interaktiver Vortrag
 <ul>
 <li class="fragment">Mehr Leute erreichen</li>
 <li class="fragment">Einblick geben</li>
-<li class="fragment">Installationsworkshop im nächsten Slot</li>
+<li class="fragment">Viel Platz für Fragen</li>
+</ul>
+</li>
 </ul>
 </section></section>
 <section>
@@ -157,7 +165,7 @@
 </section>
 <section id="evolution-of-unix" class="slide level2">
 <h2>Evolution of Unix</h2>
-<p><img data-src="img/1000px-Unix_history-simple.svg.png" style="background:white;" height="500" /></p>
+<p><img data-src="img/1000px-Unix_history-simple.svg.png" style="background:white;" height="550" /></p>
 </section>
 <section id="geschichte-2" class="slide level2">
 <h2>Geschichte</h2>
@@ -165,6 +173,30 @@
 <li class="fragment">Torvalds, damals Studi, wollte seinen eigenen Kernel bauen</li>
 <li class="fragment">Sehr viele Konzepte von Unix übernommen</li>
 <li class="fragment">OpenSourced unter dem Namen Linux (Linus + Freax)</li>
+</ul>
+</section>
+<section id="gnu-logo" class="slide level2">
+<h2>Das GNU-Projekt </h2>
+<p><img data-src="img/gnu.png" width=40% style="background:white;"/></p>
+<ul>
+<li class="fragment"> Rekursives Akronym: <b><u>G</u></b>NU is <b><u>N</u></b>ot <b><u>U</u></b>nix</li>
+</ul>
+</section>
+<section id="gnu-project" class="slide level2">	
+<ul>
+<li> Initiert 1983 von Richard Stallman </li>
+<li class="fragment"> Ziel: vollständiges, freies, unixoides Betriebsystem</li>
+<li class="fragment"> Viel bekannte Software kommt vom GNU-Projekt:
+<ul>
+	<li class="fragment"><b>GCC</b>, <b>Emacs</b>, <b>GDB</b>, <b>wget</b>... </li>
+</ul>
+</li>
+ 
+<li class="fragment"> Aber: Kernel <b>GNU Hurd</b> nie einsatzbereit geworden
+<ul>
+	<li class="fragment"> Fusion mit Linux-Kernel zu heute bekanntem <b>GNU/Linux</b>, kurz <b>Linux</b></li>
+</ul>
+</li>
 </ul>
 </section>
 <section id="tux" class="slide level2">
@@ -222,13 +254,9 @@
 </div>
 </div>
 </section>
-<section id="pyophase" class="slide level2">
-<h2>pyophase</h2>
-<p><img data-src="img/pyophase.png" /></p>
-</section>
-<section id="pyophase-1" class="slide level2">
-<h2>pyophase</h2>
-<p><img data-src="img/github-pyophase.png" /></p>
+<section id="linux-kernel-repo" class="slide level2">
+<h2>Linux Kernel Source auf GitHub.com</h2>
+<p><img data-src="img/github-linux.png" /></p>
 </section>
 <section id="warum-ist-das-ziemlich-cool" class="slide level2">
 <h2>Warum ist das ziemlich cool?</h2>
@@ -284,50 +312,6 @@
 <li class="fragment">Beispiele: Crash Reports, anonyme Telemetrie, etc.</li>
 </ul></li>
 <li class="fragment">Gesammelte anonyme Daten häufig öffentlich verfügbar</li>
-</ul>
-</section></section>
-<section>
-<section id="paketverwaltung" class="title-slide slide level1" data-background-video="img/package.mp4" data-background-video-loop="true">
-<h1 data-background-video="img/package.mp4" data-background-video-loop="true">Paketverwaltung</h1>
-
-</section>
-<section id="installieren-von-software-unter-windows" class="slide level2">
-<h2>Installieren von Software unter Windows</h2>
-</section>
-<section id="installer-finden" class="slide level2">
-<h2>1. Installer finden</h2>
-<p><img data-src="img/firefox_google.png" /></p>
-</section>
-<section id="uac-bestätigen" class="slide level2">
-<h2>2. UAC bestätigen</h2>
-<p><img data-src="img/uac-prompt.png" /></p>
-</section>
-<section id="installer-durcklicken" class="slide level2">
-<h2>3. Installer durcklicken</h2>
-<p><img data-src="img/firefox-install.png" /></p>
-</section>
-<section id="profit" class="slide level2">
-<h2>4. Profit</h2>
-<p><img data-src="img/firefox-windows.jpg" /></p>
-</section>
-<section id="installieren-von-software-unter-linux" class="slide level2">
-<h2>Installieren von Software unter Linux</h2>
-<ul>
-<li class="fragment">Linuxdistributionen haben meistens eine Paketverwaltung</li>
-<li class="fragment">Damit lassen sich Programme mit einem Klick bzw. einem Kommando nachinstallieren</li>
-<li class="fragment">Abhängigkeiten zu anderen Programmen werden intelligent gelöst</li>
-<li class="fragment">Anwendungen werden zentral up-to-date gehalten</li>
-</ul>
-</section>
-<section id="demo" class="slide level2">
-<h2>Demo</h2>
-</section>
-<section id="vorteile-gegenüber-windows" class="slide level2">
-<h2>Vorteile gegenüber Windows</h2>
-<ul>
-<li class="fragment">Keine hundert Updater, sondern ein zentrales System</li>
-<li class="fragment">Keine „Extras“ wie Toolbars beim Installieren</li>
-<li class="fragment">Selbst entscheiden wann Updates installiert werden</li>
 </ul>
 </section></section>
 <section>
@@ -403,6 +387,50 @@
 <h2>Demo</h2>
 </section></section>
 <section>
+<section id="paketverwaltung" class="title-slide slide level1" data-background-video="img/package.mp4" data-background-video-loop="true">
+<h1 data-background-video="img/package.mp4" data-background-video-loop="true">Paketverwaltung</h1>
+
+</section>
+<section id="installieren-von-software-unter-windows" class="slide level2">
+<h2>Installieren von Software unter Windows</h2>
+</section>
+<section id="installer-finden" class="slide level2">
+<h2>1. Installer finden</h2>
+<p><img data-src="img/firefox_google.png" /></p>
+</section>
+<section id="uac-bestätigen" class="slide level2">
+<h2>2. UAC bestätigen</h2>
+<p><img data-src="img/uac-prompt.png" /></p>
+</section>
+<section id="installer-durcklicken" class="slide level2">
+<h2>3. Installer durcklicken</h2>
+<p><img data-src="img/firefox-install.png" /></p>
+</section>
+<section id="profit" class="slide level2">
+<h2>4. Profit</h2>
+<p><img data-src="img/firefox-windows.jpg" /></p>
+</section>
+<section id="installieren-von-software-unter-linux" class="slide level2">
+<h2>Installieren von Software unter Linux</h2>
+<ul>
+<li class="fragment">Linuxdistributionen haben meistens eine Paketverwaltung</li>
+<li class="fragment">Damit lassen sich Programme mit einem Klick bzw. einem Kommando nachinstallieren</li>
+<li class="fragment">Abhängigkeiten zu anderen Programmen werden intelligent gelöst</li>
+<li class="fragment">Anwendungen werden zentral up-to-date gehalten</li>
+</ul>
+</section>
+<section id="demo" class="slide level2">
+<h2>Demo</h2>
+</section>
+<section id="vorteile-gegenüber-windows" class="slide level2">
+<h2>Vorteile gegenüber Windows</h2>
+<ul>
+<li class="fragment">Keine hundert Updater, sondern ein zentrales System</li>
+<li class="fragment">Keine „Extras“ wie Toolbars beim Installieren</li>
+<li class="fragment">Selbst entscheiden wann Updates installiert werden</li>
+</ul>
+</section></section>
+<section>
 <section id="linux-im-studium" class="title-slide slide level1" data-background-video="img/study.mp4">
 <h1 data-background-video="img/study.mp4">Linux im Studium</h1>
 
@@ -443,16 +471,12 @@
 <ul>
 <li class="fragment">Versionskontrollsystem des Linux Kernels</li>
 <li class="fragment">Verschiedene Teile des Projekts können verteilt bearbeitet werden</li>
-<li class="fragment">Weitere praktische Features wie Merges, Branches, etc.</li>
+<li class="fragment">Weitere praktische Features wie Merges, Branches, etc.
+<ul>
+<li class="fragment">Mehr dazu im GIT-Workshop</li>
 </ul>
-<div class="fragment">
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="fu">git</span> add test.racket</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a><span class="fu">git</span> commit -m <span class="st">&quot;Neuer Test&quot;</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a><span class="fu">git</span> push</span></code></pre></div>
-</div>
-</section>
-<section id="demo-3" class="slide level2">
-<h2>Demo</h2>
+</li>
+</ul>
 </section>
 <section id="mathe-12-afe" class="slide level2">
 <h2>Mathe 1,2 AFE</h2>
@@ -468,11 +492,12 @@
 <ul>
 <li class="fragment">Schriftsatzsystem mit Fokus auf wissenschaftliches Schreiben</li>
 <li class="fragment">sehr „schöne“ Dokumente</li>
-<li class="fragment">Coporate Design der TU einfach installierbar</li>
+<li class="fragment">Coporate Design der TU einfach installierbar
+<ul>
+<li class="fragment">Mehr dazu ebenfall im LaTeX-Workshop ;D</li>
 </ul>
-</section>
-<section id="demo-4" class="slide level2">
-<h2>Demo</h2>
+</li>
+</ul>
 </section></section>
 <section>
 <section id="distributionen" class="title-slide slide level1" data-background-video="img/trumpdistribution.mp4" data-background-video-loop="true">
@@ -553,46 +578,6 @@
 <p><img data-src="img/i3.png" /></p>
 </section></section>
 <section>
-<section id="dateisystem" class="title-slide slide level1" data-background-video="img/filesystem.mp4" data-background-video-loop="true">
-<h1 data-background-video="img/filesystem.mp4" data-background-video-loop="true">Dateisystem</h1>
-
-</section>
-<section id="dateisystem-1" class="slide level2">
-<h2>Dateisystem</h2>
-<ul>
-<li class="fragment">Anders strukturiert als bei Windows</li>
-<li class="fragment">Konsole arbeitet direkt mit Dateien</li>
-</ul>
-</section>
-<section id="die-ordnerstruktur" class="slide level2">
-<h2>Die Ordnerstruktur</h2>
-<ul>
-<li class="fragment">/ - oberstes (root) Verzeichnis (C:\)</li>
-<li class="fragment">/boot - beim Start benötigte Dateien</li>
-<li class="fragment">/etc - Globale Einstellungen</li>
-<li class="fragment">/home - Verzeichnisse der Nutzer*innen</li>
-<li class="fragment">/tmp - temporäre Dateien</li>
-<li class="fragment">/usr - Systemteile, Software, Bibliotheken</li>
-</ul>
-</section>
-<section id="home-verzeichnis" class="slide level2">
-<h2>Home-Verzeichnis</h2>
-<ul>
-<li class="fragment">Persönliche Daten (Dokumente, Downloads, etc.)</li>
-<li class="fragment">Viele config Dateien
-<ul>
-<li class="fragment">einfach zu kopieren und zu backupen</li>
-</ul></li>
-</ul>
-</section>
-<section id="wie-funktioniert-es" class="slide level2">
-<h2>Wie funktioniert es?</h2>
-<ul>
-<li class="fragment">Dateien haben Eigentümer*innen und Gruppenzugehörigkeiten</li>
-<li class="fragment">Dateien haben Attribute (read, write execute)</li>
-</ul>
-</section></section>
-<section>
 <section id="sicherheit" class="title-slide slide level1" data-background-video="img/secure-policy.mp4">
 <h1 data-background-video="img/secure-policy.mp4">Sicherheit</h1>
 
@@ -668,7 +653,7 @@
 <section id="windows-1" class="slide level2">
 <h2>Windows</h2>
 <ul>
-<li class="fragment">Manchmal braucht man noch Windows für $Dinge</li>
+<li class="fragment">Manchmal braucht man noch Windows für Dinge</li>
 <li class="fragment">Voller Umstieg kann schwierig sein</li>
 </ul>
 </section>
@@ -749,60 +734,6 @@
 <h1 data-background-video="img/question.mp4">Fragen</h1>
 
 </section>
-
-<section id="folien" class="title-slide slide level1">
-<h1>Folien</h1>
-<p><a href="https://www.d120.de/workshops">https://www.d120.de/workshops</a></p>
-<p><a href="https://github.com/miterion/linux-vortrag">https://github.com/miterion/linux-vortrag</a></p>
-</section>
-
-<section>
-<section id="linux-installieren" class="title-slide slide level1">
-<h1>Linux installieren</h1>
-
-</section>
-<section id="architektur-eures-rechners-erfahren" class="slide level2">
-<h2>1. Architektur eures Rechners erfahren</h2>
-<ul>
-<li class="fragment">32 oder 64 Bit</li>
-<li class="fragment">Windows + Pause oder nach Systeminformationen suchen</li>
-</ul>
-</section>
-<section id="section-8" class="slide level2">
-<h2></h2>
-<p><img data-src="img/windows-system-information.png" /></p>
-</section>
-<section id="distribution-und-evt.-desktopumgebung-gewählt" class="slide level2">
-<h2>2. Distribution und evt. Desktopumgebung gewählt</h2>
-<ul>
-<li class="fragment">Ubuntu, Fedora, Linux Mint, etc.</li>
-<li class="fragment">ggf. Gnome, Cinnamon, KDE, etc.</li>
-</ul>
-</section>
-<section id="lts-ja-oder-nein" class="slide level2">
-<h2>3. LTS ja oder nein</h2>
-<ul>
-<li class="fragment">falls vorhanden zwischen Long Term Support und „normaler“ Version wählen</li>
-<li class="fragment">mit LTS Versionen macht man i.d.R. nichts falsch</li>
-</ul>
-</section>
-<section id="iso-herunterladen" class="slide level2">
-<h2>4. ISO herunterladen</h2>
-</section>
-<section id="mit-etcher-o.ä.-auf-usb-stick-brennen" class="slide level2">
-<h2>5. Mit <em>etcher</em> o.ä. auf USB-Stick „brennen“</h2>
-<p><img data-src="img/etcher.png" height="400" /></p>
-</section>
-<section id="stick-booten" class="slide level2">
-<h2>6. Stick Booten</h2>
-<ul>
-<li class="fragment">BIOS blendet notwendige Tasten häufig ein</li>
-<li class="fragment">oft F12, F1, F2</li>
-</ul>
-</section>
-<section id="installeranweisungen-folgen" class="slide level2">
-<h2>7. Installeranweisungen folgen</h2>
-</section></section>
     </div>
   </div>
 
